@@ -26,7 +26,7 @@ function main() {
   // 脚本即将执行提示
   toast("即将执行脚本，请勿操作手机");
   sleep(3000);
-  setTimeout(() => exit(), 144 * 1000);
+  //setTimeout(() => exit(), 144 * 1000);
 
   // 打开抖音
   device.setMusicVolume(0);
